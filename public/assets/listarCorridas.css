@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+body {
+    font-family:'Lexend Deca', sans-serif;
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+}
+.navbar #motubericon{
+    width: 10%;
+    height: 10%;
+    float: auto;
+}
+.navbar a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+div.corridas table{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    max-width: 80%;
+    min-width: 75%;
+    margin-left: 13%;
+    margin-top: 50px;
+    border-collapse: collapse;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+div.corridas tr, td{
+    padding: 10px;
+    border: 1px solid white;
+}
+.colunas{
+    background-color: orange;
+    color: black;
+    border: 2px solid white;
+}
+.navbar h3{
+    color: white;
+    font-size: 18px;
+    margin-top: -29px;
+    margin-left: 85%;
+}
+.navbar #contaicon{
+    margin-left: 0px;
+    max-width: 30px;
+    max-height: 30px;
+}
+.navbar #sair{
+    float: right;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 240px;
+}
+div.buscar td, tr{
+    border: none;
+    margin-left: 50%;
+}
+div.buscar label{
+    color: white;
+    font-size: 18px;
+}
+div.buscar input{
+    padding: 10px;
+}
+div.buscar input::placeholder{
+    font-family:'Lexend Deca', sans-serif;
+}
+div.buscar table{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+div.buscar #btn-buscar{
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-family: 'Lexend Deca', sans-serif;
+	background-color: orange;
+	border: 2px solid orange;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 14px;
+    margin-top: 10px;
+	transition-duration: 0,5s;
+}
+div.buscar #btn-buscar:hover{
+	background-color: darkorange;
+}

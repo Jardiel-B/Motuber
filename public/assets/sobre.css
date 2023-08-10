@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+body {
+    font-family:'Lexend Deca', sans-serif;
+    background-color: black;
+}
+div.info{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: justify;
+    width: 60%;
+}
+div.info h2{
+    color: orange;
+    font-size: 34px;
+}
+.navbar h3{
+    color: white;
+    font-size: 18px;
+    margin-top: -29px;
+    margin-left: 85%;
+}
+.navbar #contaicon{
+    margin-left: 0px;
+    max-width: 30px;
+    max-height: 30px;
+}
+.navbar #sair{
+    float: right;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 240px;
+}
+div.info h4{
+    color: orange;
+    font-size: 20px;
+}
+.navbar{
+    background-color: black;
+}
+.navbar #motubericon{
+    width: 10%;
+    height: 10%;
+    float: auto;
+}
+.navbar a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+div.contatoR{
+    align-content: center;
+    display: block;
+    margin-left: -750px;
+    color: orange;
+    
+}
+div.contatoT{
+    align-content: center;
+    display: block;
+    margin-left: 0px;
+    margin-top: -155px;
+    color: orange;
+    
+}
+div.contatoE{
+    display: block;
+    margin-left: 750px;
+    margin-top: -155px;
+    color: orange;
+    
+}
+footer{
+    text-align: center;
+}

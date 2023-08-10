@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+body{
+	font-family:'Lexend Deca', sans-serif;
+	background:url('../imagens/cadastro.png') no-repeat;
+	background-size: 100% 105%;
+	background-color: black;
+}
+fieldset{
+	margin-left: 50%;
+	margin-right: auto; 
+	display: block;
+	border:1px solid orange;
+	background-color: black;
+	width:24%;
+	margin-top:-370px;
+	border-radius:10px;
+}
+legend {
+	background-color: orange;
+    color: black;
+	border-radius:4px;
+	font-size:20px;
+	text-align:left;
+}
+h1{
+	background-color: black;
+	color: orange;
+	padding-top:20px;
+	padding-bottom:20px;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 10px;
+}
+a{
+	text-align: center;
+	color: white;
+	margin-left: 26%;
+}
+#btn-enviar{
+	font-family: 'Lexend Deca', sans-serif;
+	margin-left: 14.8%;
+	background-color: orange;
+	border: 2px solid orange;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 14px;
+	transition-duration: 0,5s;
+}
+#btn-enviar:hover{
+	background-color: darkorange;
+}
+input{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10px;
+	width: 70%;
+	padding: 10px;
+	border-radius: 20px;
+}
+#logo{
+	width: 20%;
+	margin-left: 350px;
+	margin-top: 100px;
+}
+input::placeholder{
+	font-family: 'Lexend Deca', sans-serif;
+}
+div.erros{
+	position: absolute;
+	background-color: black;
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+	width: 22%;
+	border: 1px solid orange;
+	margin-top: 1%;
+	margin-left: 75.5%;
+}

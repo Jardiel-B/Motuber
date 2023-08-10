@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+body {
+    font-family:'Lexend Deca', sans-serif;
+    background-color: black;
+    max-width: 100%;
+}
+.navbar{
+    background-color: black;
+}
+.navbar #motubericon{
+    width: 10%;
+    height: 10%;
+    float: auto;
+}
+.navbar h3{
+    color: white;
+    font-size: 18px;
+    margin-top: -29px;
+    margin-left: 85%;
+}
+.navbar #contaicon{
+    margin-left: 0px;
+    max-width: 30px;
+    max-height: 30px;
+}
+.navbar #sair{
+    float: right;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 240px;
+}
+.navbar a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+div.download img{
+    margin-left: 15%;
+    margin-top: -60px;
+}
+div.download #intro{
+    color: white;
+    width: 30%;
+    margin-top: -450px;
+    margin-left: 55%;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+}
+div.download #btn-download{
+    font-family:'Lexend Deca', sans-serif;
+    color: black;
+    background-color: orange;
+    width: 10%;
+    margin-top: 10px;
+    margin-left: 66%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    font-size: 15px;
+}
+#btn-download:hover{
+	background-color: darkorange;
+}
+div.download h2{
+    margin-top: 100px;
+    color: orange;
+    margin-left: 61%;
+}
+div.download p{
+    color: orange;
+    margin-left: 67.6%;
+    font-size: 15px;
+    margin-top: 10px;
+}
+div.contatoR{
+    align-content: center;
+    margin-left: -750px;
+    margin-top: 2000;
+    color: orange;
+    
+}
+div.contatoT{
+    align-content: center;
+    display: block;
+    margin-left: 0px;
+    margin-top: 50px;
+    color: orange;
+    
+}
+div.contatoE{
+    display: block;
+    margin-left: 750px;
+    margin-top: -135px;
+    color: orange;
+    
+}
+footer{
+    text-align: center;
+}
